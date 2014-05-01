@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52184E1C1912D09C00FF4C00 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52184E1B1912D09C00FF4C00 /* AVFoundation.framework */; };
+		52184E1E1912D0C800FF4C00 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52184E1D1912D0C800FF4C00 /* CoreVideo.framework */; };
+		52184E201912D0D900FF4C00 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52184E1F1912D0D900FF4C00 /* CoreMedia.framework */; };
 		5243AADB18FAEFC50084BC06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5243AADA18FAEFC50084BC06 /* Foundation.framework */; };
 		5243AADD18FAEFC50084BC06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5243AADC18FAEFC50084BC06 /* CoreGraphics.framework */; };
 		5243AADF18FAEFC50084BC06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5243AADE18FAEFC50084BC06 /* UIKit.framework */; };
@@ -21,6 +24,10 @@
 		5243AAFC18FAEFC50084BC06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5243AADE18FAEFC50084BC06 /* UIKit.framework */; };
 		5243AB0418FAEFC50084BC06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5243AB0218FAEFC50084BC06 /* InfoPlist.strings */; };
 		5243AB0618FAEFC50084BC06 /* BlinkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243AB0518FAEFC50084BC06 /* BlinkTestTests.m */; };
+		52A282641912F50100187F39 /* close_sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A282601912F50100187F39 /* close_sad.png */; };
+		52A282651912F50100187F39 /* close_smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A282611912F50100187F39 /* close_smile.png */; };
+		52A282661912F50100187F39 /* open_sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A282621912F50100187F39 /* open_sad.png */; };
+		52A282671912F50100187F39 /* open_smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A282631912F50100187F39 /* open_smile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52184E1B1912D09C00FF4C00 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		52184E1D1912D0C800FF4C00 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		52184E1F1912D0D900FF4C00 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		5243AAD718FAEFC50084BC06 /* BlinkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlinkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5243AADA18FAEFC50084BC06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5243AADC18FAEFC50084BC06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +63,10 @@
 		5243AB0118FAEFC50084BC06 /* BlinkTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlinkTestTests-Info.plist"; sourceTree = "<group>"; };
 		5243AB0318FAEFC50084BC06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5243AB0518FAEFC50084BC06 /* BlinkTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlinkTestTests.m; sourceTree = "<group>"; };
+		52A282601912F50100187F39 /* close_sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_sad.png; sourceTree = "<group>"; };
+		52A282611912F50100187F39 /* close_smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_smile.png; sourceTree = "<group>"; };
+		52A282621912F50100187F39 /* open_sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open_sad.png; sourceTree = "<group>"; };
+		52A282631912F50100187F39 /* open_smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open_smile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52184E201912D0D900FF4C00 /* CoreMedia.framework in Frameworks */,
+				52184E1E1912D0C800FF4C00 /* CoreVideo.framework in Frameworks */,
+				52184E1C1912D09C00FF4C00 /* AVFoundation.framework in Frameworks */,
 				5243AADD18FAEFC50084BC06 /* CoreGraphics.framework in Frameworks */,
 				5243AADF18FAEFC50084BC06 /* UIKit.framework in Frameworks */,
 				5243AADB18FAEFC50084BC06 /* Foundation.framework in Frameworks */,
@@ -101,6 +118,9 @@
 		5243AAD918FAEFC50084BC06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52184E1F1912D0D900FF4C00 /* CoreMedia.framework */,
+				52184E1D1912D0C800FF4C00 /* CoreVideo.framework */,
+				52184E1B1912D09C00FF4C00 /* AVFoundation.framework */,
 				5243AADA18FAEFC50084BC06 /* Foundation.framework */,
 				5243AADC18FAEFC50084BC06 /* CoreGraphics.framework */,
 				5243AADE18FAEFC50084BC06 /* UIKit.framework */,
@@ -113,6 +133,10 @@
 			isa = PBXGroup;
 			children = (
 				5243AAE918FAEFC50084BC06 /* BTAppDelegate.h */,
+				52A282601912F50100187F39 /* close_sad.png */,
+				52A282611912F50100187F39 /* close_smile.png */,
+				52A282621912F50100187F39 /* open_sad.png */,
+				52A282631912F50100187F39 /* open_smile.png */,
 				5243AAEA18FAEFC50084BC06 /* BTAppDelegate.m */,
 				5243AAEC18FAEFC50084BC06 /* Main.storyboard */,
 				5243AAEF18FAEFC50084BC06 /* BTViewController.h */,
@@ -229,9 +253,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A282661912F50100187F39 /* open_sad.png in Resources */,
 				5243AAF318FAEFC50084BC06 /* Images.xcassets in Resources */,
+				52A282641912F50100187F39 /* close_sad.png in Resources */,
 				5243AAE518FAEFC50084BC06 /* InfoPlist.strings in Resources */,
 				5243AAEE18FAEFC50084BC06 /* Main.storyboard in Resources */,
+				52A282671912F50100187F39 /* open_smile.png in Resources */,
+				52A282651912F50100187F39 /* close_smile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +485,7 @@
 				5243AB0B18FAEFC50084BC06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5243AB0C18FAEFC50084BC06 /* Build configuration list for PBXNativeTarget "BlinkTestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +494,7 @@
 				5243AB0E18FAEFC50084BC06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
